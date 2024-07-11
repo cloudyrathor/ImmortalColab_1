@@ -25,10 +25,36 @@
 # print(x.upper())
 
 # -------------------can you check now3a----area of circle-------------------
-def area_of_circle(ip):
-    area =  3.14 * ip * ip
-    return area
+# def area_of_circle(ip):
+#     area =  3.14 * ip * ip
+#     return area
 
-ip = float(input("Enter the radius :"))
-print(area_of_circle(ip))
+# ip = float(input("Enter the radius :"))
+# print(area_of_circle(ip))
 
+# filename = input("Input the filename : ")
+
+# x = filename.split(".")
+# print("The file exention is " + x[-1])
+# ------------------------------------------------------
+# from datetime import date
+# def convert_to_days(first_date,second_date):
+
+#     days = second_date-first_date
+#     return days    
+
+
+# first_date  = date(2014,7,2)
+# second_date = date(2014,7,11)
+# print(convert_to_days(first_date,second_date))
+
+# -----------------AKSHAY PROBLEM DEFINITION---------------
+
+# ip = input("Enter the no : ")
+# cal = int(ip)+int(ip*2)+int(ip*3)
+# print(cal)
+
+ip = input("Enter the number: ")
+number = int(ip)
+calculation = number + number * 2 + number * 3
+print(calculation)
